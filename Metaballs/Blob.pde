@@ -7,7 +7,7 @@ class Blob {
     pos = new PVector(x, y);
     vel = PVector.random2D();
     vel.mult(random(2,5));
-    r = random(40, 120);
+    r = random(5, 80);
   }
   
   void update() {
